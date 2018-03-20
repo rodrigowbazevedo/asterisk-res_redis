@@ -1,0 +1,11 @@
+[general]
+ttl=0                                 ; sets the default time-to-live, in seconds, for the key-value entries added
+                                      ;   or modified in the cache store. default value is 0, which means the entries
+                                      ;   will persist forever.
+;keyprefix=                           ; whatever string you specify here is prepended to each key that is retrieved
+                                      ;   or stored, so that you can create some sort of a "domain" for your
+                                      ;   asterisk server
+server=localhost                      ; Server can be a fqdn or an ip address, if no entries, the module will at
+;server=redis.server.com              ;   least attempt to connect to a redis running on the localhost
+;port=6379                            ; The default redis port is 6379.
+
